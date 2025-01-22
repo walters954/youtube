@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<PlatformEventSubscriberConfig xmlns="https://soap.sforce.com/2006/04/metadata">
+    <batchSize>200</batchSize>
+    <masterLabel>LinkedInPostPlatformEventConfig</masterLabel>
+    <numPartitions>1</numPartitions>
+    <partitionKey>EventUuid</partitionKey>
+    <platformEventConsumer>LinkedInPostPlatformEvent</platformEventConsumer>
+    <user>test-htf68gyvfrho@example.com</user>
+</PlatformEventSubscriberConfig>
